@@ -8,7 +8,7 @@ function handleImgLoad() {
 
 function paintImage(imgNumber) {
     const image = new Image();
-    image.src = `C:/Users/daeji/OneDrive/Desktop/momentum/image/USA/${imgNumber + 1}.jpg`;
+    image.src = `/follow-momentum/image/USA/${imgNumber + 1}.jpg`;
     image.classList.add("bgImage");
     body.appendChild(image);
     image.addEventListener("loadend", handleImgLoad);
