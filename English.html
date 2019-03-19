@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <title>momentum</title>
+  <meta charset = "utf-8" />
+  <link rel="stylesheet" href= "style.css" />
+  </head>
+
+  <body>
+  <div id="header-box">
+
+    <form action=" ">
+      <span class = "js-weather"></span>
+      <select name="언어" id = "language-change" onchange = "location = this.value;">
+        <option value="English.html">English</option>
+        <option value="Korea.html">한국어</option>
+        <option value="Japanese.html">日本語</option>
+        <option value="Spanish.html">español</option>
+        <option value="France.html">français</option>
+      </select>
+    </form>
+  </div>
+   
+   <div id = "center">
+    <div class = "js-clock">
+        <h1></h1>
+    </div>
+     <form class = "js-form form">
+       <input type="text" placeholder="What is your name?" />
+     </form>
+     <h4 class = "js-greetings greetings"></h4>
+     <form class = "js-toDoForm">
+        <input type="text" placeholder="What to do today." />
+     </form>
+     <ul>
+     <li class = "js-toDoList">
+     </li>
+    </ul>
+  </div>
+          
+    <script src="clock.js"></script>
+    <script src="English-greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="English-bg.js"></script>
+    <script src="weather.js"></script>
+  </body>
