@@ -1,6 +1,6 @@
 const body = document.querySelector("body");
 
-const IMG_NUMBER = 6;
+const IMG_NUMBER = 3;
 
 function handleImgLoad() {
     console.log("finished loading");
@@ -8,7 +8,7 @@ function handleImgLoad() {
 
 function paintImage(imgNumber) {
     const image = new Image();
-    image.src = `/follow-momentum/image/france/${imgNumber + 1}.jpg`;
+    image.src = `follow-momentum/image/france/${imgNumber + 1}.jpg`;
     image.classList.add("bgImage");
     body.appendChild(image);
     image.addEventListener("loadend", handleImgLoad);

@@ -26,7 +26,7 @@ ul li button {
 }
 #header-box {
   width: 100%;
-  height: 100px;
+  height: 180px;
 }
 .bgImage {
   position: absolute;
@@ -54,10 +54,14 @@ li {
   text-align: center;
 }
 h1 {
-  font-size: 2em;
+  font-size: 230%;
   font-family: sans-serif;
+  height: 70px; 
 }
 .js-weather {
   float: left;
   font-size: 90%;
+}
+h4 {
+  height: 10px;
 }
