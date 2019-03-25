@@ -8,7 +8,7 @@ function handleImgLoad() {
 
 function paintImage(imgNumber) {
     const image = new Image();
-    image.src = `follow-momentum/image/korea/${imgNumber + 1}.jpg`;
+    image.src = `https://github.com/hdj0201/follow-momentum/tree/master/image/korea/${imgNumber + 1}.jpg`;
     image.classList.add("bgImage");
     body.appendChild(image);
     image.addEventListener("loadend", handleImgLoad);
